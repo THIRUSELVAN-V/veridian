@@ -6,7 +6,6 @@ export const Mainhead = styled(Box)(() => ({
     display:'flex',
     alignItems:'center',
     justifyContent:'center',
-    overflow: "hidden",
     position: "relative",
   }));
 
