@@ -1,0 +1,60 @@
+export const stylesnew = (theme) => ({
+    layout: {
+      height:'550px',
+      // backgroundColor:'red',
+      width:'1302px',
+      display:"flex",
+      flexDirection:"column",
+      // justifyContent:"center",
+      alignItems:"center"
+    },
+    Our: {
+      marginTop: "48px",
+      marginBottom: "24px",
+      color: theme.palette.text.primary,
+      textAlign: "center",
+      fontSize: "32px",
+      fontWeight: "bold",
+    },
+    swiper:{
+      width: "100%",
+      height: "100%",
+      padding: "0 50px",
+      boxSizing: "border-box",
+    },
+    swiperslide:{
+      backgroundColor: "white",
+      width: "100%",
+      height: "100%",
+      display: "flex",
+      alignItems: "end",
+      justifyContent: "left",
+      color: "white",
+      fontSize: "20px",
+      fontWeight: "bold",
+      clipPath: "polygon(20% 0, 100% 0, 80% 100%, 0 100%)",
+    },
+    about:{
+      width: "595px",
+      height: "90%",
+      display: "flex",
+      alignItems: "top",
+      fontSize: "16px",
+      color: "#717B85",
+    },
+    name:{
+      backgroundColor: "#009065",
+      position: "absolute",
+      marginLeft: "24%",
+      marginBottom: "5px",
+      width: "438px",
+      height: "68px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      zIndex: "-1",
+      clipPath: "polygon(20% 0, 100% 0, 80% 100%, 0 100%)",
+      
+    }
+})

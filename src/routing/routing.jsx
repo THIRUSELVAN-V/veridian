@@ -1,18 +1,21 @@
 import React from "react";
 import Header from "../components/Header/header";
 import Home from "../pages/home";
-import { Head, Main, Body } from "../styles/layout";
+import { style} from "../styles/layout";
+import { Box,useTheme} from "@mui/material";
 
 function routing() {
+  const theme = useTheme();
+  const styles = style(theme);
   return (
-    <Main>
-      <Head>
+    <Box sx={styles.Main}>
+      <Box sx={styles.Head}>
         <Header />
-      </Head>
-      <Body>
+      </Box>
+      <Box sx={styles.Body}>
         <Home />
-      </Body>
-    </Main>
+      </Box>
+    </Box>
   );
 }
 
