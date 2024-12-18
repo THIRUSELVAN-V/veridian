@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box,useTheme } from "@mui/material";
 import { PiArrowElbowRightDownBold } from "react-icons/pi";
-import photo1 from "../../assets/group3.png";
-import photo2 from "../../assets/group4.png";
+import photo1 from "../../assets/Group3.png";
+import photo2 from "../../assets/Group4.png";
 
 import { styl } from './styls';
 const Invesment = () => {
