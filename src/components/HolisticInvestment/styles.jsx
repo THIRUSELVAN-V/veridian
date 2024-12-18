@@ -43,13 +43,13 @@ export const stylesnew = (theme) => ({
   heading: {
     color: theme.palette.text.primary,
     fontWeight: theme.typography.fontWeight.semiBold,
-    fontSize: theme.typography.fontSize.extraMedium,
+    fontSize: theme.typography.fontsize.extraMedium,
     marginBottom: "12px",
   },
 
   para: {
     color: theme.palette.text.secondary,
-    fontSize: theme.typography.fontSize.small,
+    fontSize: theme.typography.fontsize.small,
     marginBottom: "10px",
   },
 });

@@ -31,7 +31,7 @@ export const styles = (theme) => ({
       flexDirection: "column",
       justifyContent: "space-between",
       color: theme.palette.text.secondary,
-      fontSize: theme.typography.fontSize.small,
+      fontSize: theme.typography.fontsize.small,
     },
   
     left: {
@@ -57,13 +57,13 @@ export const styles = (theme) => ({
     con_l_head: {
       color: theme.palette.text.primary,
       fontWeight: theme.typography.fontWeight.semiBold,
-      fontSize: theme.typography.fontSize.extraMedium,
+      fontSize: theme.typography.fontsize.extraMedium,
       marginBottom: "12px",
     },
   
     con_l_body: {
       color: theme.palette.text.secondary,
-      fontSize: theme.typography.fontSize.small,
+      fontSize: theme.typography.fontsize.small,
     },
     boxabout: {
       width: "100%",

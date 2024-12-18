@@ -39,7 +39,7 @@ export const styl = (theme) => ({
         alignItems: "center",
         justifyContent: "space-between",
         fontWeight: theme.typography.fontWeight.semiBold,
-        fontSize: theme.typography.fontSize.large,
+        fontSize: theme.typography.fontsize.large,
       },
       rarrow: {
         backgroundColor: "#00000033",
@@ -54,7 +54,7 @@ export const styl = (theme) => ({
         letterSpacing: "1px",
         color: theme.palette.text.primary,
         padding: "4px",
-        fontSize: theme.typography.fontSize.verySmall,
+        fontSize: theme.typography.fontsize.verySmall,
         marginLeft: "22px",
       },
 })

@@ -34,7 +34,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: "Roboto, Arial, sans-serif",
-    fontSize: {
+    fontsize: {
         extraLarge: "24px",
         large: "20px",
         extraMedium: "18px",
